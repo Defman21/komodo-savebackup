@@ -17,7 +17,6 @@ if(Hour<10) Hour     = "0" + Hour;
 if(Minute<10) Minute = "0" + Minute;
 if(Second<10) Second = "0" + Second;
 var timestamp = Year+"-"+Month+"-"+Day+":"+Hour+"-"+Minute+"-"+Second;
-alert(timestamp);
 var backup_fld = curdir+"_bak/";
 var backup =backup_fld+basename+timestamp;
 
